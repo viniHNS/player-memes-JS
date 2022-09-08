@@ -26,10 +26,10 @@ let trackList = [
     },
 
     {
-        nome: "Shipping Lanes",
-        artista: "Chad Crouch",
+        nome: "Sente a pressão",
+        artista: "Giga Chad",
         imagem: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-        caminhoMusica: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3"
+        caminhoMusica: "https://www.myinstants.com/media/sounds/nenem_C9u0QlC.mp3"
     }
     
 
