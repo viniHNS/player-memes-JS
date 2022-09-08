@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62c44247f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper-img">
+        <div class="imagem"></div>
+    </div>
+    
+
+    <div class="titulo">
+        <h1 class="nome-musica">Placeholder</h1>
+        <h4 class="nome-artista">Placeholder</h4>
+    </div>
+
+    <div class="slider">
+        <div class="tempo-atual">00:00</div>
+        <input class="slide" type="range" min="0" max="100" value="0" onchange="seekTo()">
+        <div class="tempo-total">00:00</div>
+    </div>
+
+    <div class="controles">
+        <button class="anterior" type="button" onclick="anteriorMusica()"><i class="fa-solid fa-backward-step"></i></button>
+        <button class="play" type="button" onclick="playPauseMusica()"><i class="fa-solid fa-play"></i></button>
+        <button class="proximo" type="button" onclick="proximaMusica()"><i class="fa-solid fa-forward-step"></i></i></button>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
