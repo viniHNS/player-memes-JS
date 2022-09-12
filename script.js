@@ -104,7 +104,7 @@ anteriorMusica = () => {
 }
 
 seekTo = () => {
-    seekto = musicaAtual.duration * (slider.value / 100)
+    let seekto = musicaAtual.duration * (slider.value / 100)
     musicaAtual.currentTime = seekto;
 }
 
@@ -118,8 +118,8 @@ seekUpdate = () => {
 
     let atualMinutos = Math.floor(musicaAtual.currentTime / 60);
     let atualSegundos = Math.floor(musicaAtual.currentTime - atualMinutos * 60);
-    let duracaoMinutos = Math.floor(musicaAtual.currentTime / 60);
-    let duracaoSegundos = Math.floor(musicaAtual.currentTime - atualMinutos * 60);
+    let duracaoMinutos = Math.floor(musicaAtual.duration / 60);
+    let duracaoSegundos = Math.floor(musicaAtual.duration - atualMinutos * 60);
 
     if (atualMinutos < 10) {
         atualMinutos = "0" + atualMinutos;
