@@ -1,3 +1,3 @@
-# player-musica-JS
+# player-memes-JS
 
 __Em andamento__
